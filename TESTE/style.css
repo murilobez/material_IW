@@ -8,14 +8,36 @@ body{
 
 p{
     background-color: #3F76A6;
+    border-color: aquamarine;
+    border-style: groove;
+    color:black
 }
 
 div{
-    background-color: #5FC2D9;
+    background-color:#131A40 ;
     width: 100px;
-    
+    height: 50px;
+   
+
 }
 
 h1{
     background-color: aliceblue;
+    text-align: center;
+    color: black;
+    margin-top: 0;
 }
+
+.rel{
+    width: 100%;
+    position: relative;
+    top: 60px;
+}
+
+.fix{
+    position: fixed;
+    width: 100%;
+    z-index: 1030;
+    top: 10px;
+}
+
