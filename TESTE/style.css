@@ -1,31 +1,36 @@
 body{
-    background-color: #131A40;
+    background-color: #BF8C6F;
 }
 
 .container{
     background-color: #04B2D9;
+    width: 100%;
+    height: 800px;
+    top:400px;
+    position: relative;
+    width: 995px;
+   
+    
 }
 
 p{
-    background-color: #3F76A6;
-    border-color: aquamarine;
-    border-style: groove;
+    padding: 10px;
+    background-color: #B86D8C;
+    border-color: #8BBBD9;
+    border-style: solid;
+    border-radius: 12px;
     color:black
 }
 
 div{
-    background-color:#131A40 ;
+    background-color:#BF8C6F;
     width: 100px;
     height: 50px;
-   
-
 }
 
-h1{
-    background-color: aliceblue;
+h1{ 
     text-align: center;
     color: black;
-    margin-top: 0;
 }
 
 .rel{
@@ -37,7 +42,46 @@ h1{
 .fix{
     position: fixed;
     width: 100%;
-    z-index: 1030;
-    top: 10px;
+    z-index: 990;
+    top: 0%;
+    border-style: solid;
+    border-color: #8BBBD9;
+    margin-top: 0;
+    border-radius: 12px;
+    width: 100%;
+    margin-right: 50px;
+    background-color: #B86D8C;
+}
+
+.topd{
+    position: absolute;
+    width: 20%;
+    background-color: brown;
+    right: 16px;
+    top: 50px;
+}
+
+.topesq{
+    position: absolute;
+    width: 20%;
+    background-color: blueviolet;
+    left: 16px;
+    top: 50px;
+}
+
+.baixd{
+    position: absolute;
+    width: 20%;
+    background-color:cornflowerblue;
+    bottom: 10px;
+    right: 16px;
+}
+
+.baixesq{
+    position: absolute;
+    width: 20%;
+    background-color: aqua;
+    bottom: 10px;
+    left: 16px;
 }
 
