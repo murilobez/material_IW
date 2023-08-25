@@ -56,32 +56,66 @@ h1{
 .topd{
     position: absolute;
     width: 20%;
-    background-color: brown;
+    background-color: #B86D8C;
     right: 16px;
     top: 50px;
+    border: 2px solid #8BBBD9;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #B86D8C;
 }
 
 .topesq{
     position: absolute;
     width: 20%;
-    background-color: blueviolet;
     left: 16px;
     top: 50px;
+    border: 2px solid #8BBBD9;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #B86D8C;
 }
 
 .baixd{
     position: absolute;
     width: 20%;
-    background-color:cornflowerblue;
     bottom: 10px;
     right: 16px;
+    border: 2px solid #8BBBD9;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #B86D8C;
 }
 
 .baixesq{
     position: absolute;
     width: 20%;
-    background-color: aqua;
+    background-color: #B86D8C;
     bottom: 10px;
     left: 16px;
+    border: 2px solid #8BBBD9;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #B86D8C;
 }
-
+ h2{
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    border: 2px solid #8BBBD9;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #B86D8C;
+}
+.meio{
+    position: absolute;
+    width: 20%;
+    top: 400px;
+    right: 40%;
+    font-size: 18px;
+    width: 20%;
+    border: 2px solid #8BBBD9;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #B86D8C;
+}
